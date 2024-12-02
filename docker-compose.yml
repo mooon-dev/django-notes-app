@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   web:
-    image: livhere/my-notes-app
+    image: livhere/my-notes-app:latest
       context: .
     ports:
       - "8000:8000"
